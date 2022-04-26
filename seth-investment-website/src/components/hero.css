@@ -1,0 +1,56 @@
+.hero-section {
+    text-align: center;
+    background-image: url(ss4-img.jpeg);
+    padding: 15%;
+    /* filter: brightness(85%); */
+    color: white;
+}
+.hero-section h1 {
+    font-size: 400%;
+}
+.hero-section p {
+    font-family: 'Fredoka', sans-serif;
+}
+.lrn-more {
+    border: none;
+    color: white;
+    background: #2d3891;
+    padding: 2% 5%;
+    font-weight: 600;
+    font-size: 120%;
+    transition-duration: 1s;
+}
+.lrn-more:hover {
+    background-color: #0b1038;
+}
+.row {
+    display: flex;
+}
+.about-section{
+    padding: 5%;
+}
+.text-center {
+    font-size: 200%;
+    padding: 2%;
+    padding-left: 3%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.slide-img{
+    width: 40%;
+}
+/* Mobile Phones */
+@media(max-width: 750px){
+    .row {
+        display: block;
+    }
+    .box-align {
+        width: 95%;
+    }
+    img.hero-img {
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
+}
