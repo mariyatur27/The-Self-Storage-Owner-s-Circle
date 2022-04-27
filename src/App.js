@@ -5,7 +5,7 @@ import Button from './components/button';
 import Hero from './components/hero';
 import Page2 from './components/pages/page_2';
 import Page3 from './components/pages/page_3';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Footer from './components/footer';
 import Team from './components/team';
 import Contact from './components/contact';
