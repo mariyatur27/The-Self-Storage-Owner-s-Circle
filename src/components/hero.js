@@ -8,7 +8,7 @@ function Hero() {
         <div className='hero-section'>
             <img src="../../assets/new_logo.png" className='logo2' />
             <br></br>
-            <a href="/secrets-to-selling-your-storage-facility"><button className='lrn-more'>How We Can Help You</button></a>
+            <a href="/secrets-to-selling-your-storage-facility"><button className='lrn-more' id='lrn-more'>How We Can Help You</button></a>
         </div>
 
         <div className='about-section' id="about-section">

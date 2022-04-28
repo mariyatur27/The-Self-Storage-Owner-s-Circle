@@ -1,4 +1,7 @@
-
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Inter', sans-serif;
@@ -28,6 +31,15 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+svg.icon-contact {
+    width: 5%;
+    display: block;
+    margin-top: 1%;
+}
+.contact-text {
+    margin-top: 3.5%;
+    margin-left: 3%;
 }
 .tcontainer {
     width: 100%;
@@ -218,8 +230,24 @@ html {
         display: block;
         padding: 4%;
         position: fixed;
-        width: 87%;
+        width: 100%;
         background-color: black;
+    }
+    iframe{
+        width: 330px;
+        height: 200px;
+    }
+    #lrn-more{
+        padding: 7% 5%;
+        margin-bottom: 21%;
+    }
+    svg.icon-contact {
+        width: 9%;
+        margin-top: 8%;
+    }
+    .contact-text {
+        margin-top: -8.5%;
+        margin-left: 12%;
     }
     #extra_space li {
         width: 100%;
@@ -240,7 +268,7 @@ html {
         margin-bottom: 38%;
     }
     svg.svg-inline--fa.fa-bars {
-        margin-left: 91%;
+        margin-left: 87%;
     }
     #menu{
         position: absolute;
