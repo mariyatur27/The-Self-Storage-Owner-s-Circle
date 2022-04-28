@@ -2,13 +2,15 @@ import React from 'react';
 import './hero.css';
 import { Link } from 'react-router-dom';
 
+
 function Hero() {
+    
     return (
         <>
         <div className='hero-section'>
             <img src="../../assets/new_logo.png" className='logo2' />
             <br></br>
-            <a href="/secrets-to-selling-your-storage-facility"><button className='lrn-more' id='lrn-more'>How We Can Help You</button></a>
+            <a href="/how-we-can-help-you"><button className='lrn-more' id='lrn-more'>How We Can Help You</button></a>
         </div>
 
         <div className='about-section' id="about-section">
