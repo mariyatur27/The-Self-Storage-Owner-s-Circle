@@ -46,15 +46,15 @@ function Contact() {
                 <div className='contacts-icons'>
                     <div className='row'>
                         <FontAwesomeIcon icon={faSquarePhone} color="#2d3891" class='icon-contact' style={{verticalAlign: 'middle'}}/>
-                        <a href='tel:19842540884' style={{color: '#2d3891', width: '30%', marginTop: '2%'}}><h4 className='contact-text'>+1 984-254-0884</h4></a>
+                        <a href='tel:19842540884' style={{color: '#2d3891',  marginTop: '2%'}} className='contact-link'><h4 className='contact-text'>+1 984-254-0884</h4></a>
                     </div>
                     <div className='row'>
                         <FontAwesomeIcon icon={faSquareEnvelope} color="#2d3891" class='icon-contact' style={{verticalAlign: 'middle'}}/>
-                        <a href='mailto:s.saeugling@gmail.com' style={{color: '#2d3891', width: '30%', marginTop: '2%'}}><h4 className='contact-text'>s.saeugling@gmail.com</h4></a>
+                        <a href='mailto:s.saeugling@gmail.com' style={{color: '#2d3891',  marginTop: '2%'}} className='contact-link'><h4 className='contact-text'>s.saeugling@gmail.com</h4></a>
                     </div>
                     <div className='row'>
                         <FontAwesomeIcon icon={faLocationDot} color="#2d3891" class='icon-contact' style={{verticalAlign: 'middle'}}/>
-                        <a href='https://goo.gl/maps/uzAp94s3Cd5f7LEw5' style={{color: '#2d3891', width: '30%', marginTop: '2%'}}><h4 className='contact-text'>North Carolina, USA</h4></a>
+                        <a href='https://goo.gl/maps/uzAp94s3Cd5f7LEw5' style={{color: '#2d3891',  marginTop: '2%'}} className='contact-link'><h4 className='contact-text'>North Carolina, USA</h4></a>
                     </div>
                 </div>
             </div>
