@@ -34,7 +34,7 @@ function Hero() {
             </div>
             <div className='row' style={{marginTop: "-5%"}}>
                 <div className='container extra-padding'>
-                    <h1 style={{ fontSize: "80px", textAlign: "center"}}>👨🏻‍💼</h1>
+                    <h1 style={{ fontSize: "80px", textAlign: "center"}}>✨</h1>
                     <h2>Expert advice, always free</h2>
                     <p>We want to share knowledge, information, and tools to help you make the best decisions when selling your self-storage business. For free.</p>
                 </div>

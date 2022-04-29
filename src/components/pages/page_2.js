@@ -25,7 +25,7 @@ function Page2() {
           <img className='hero-img left hide' src='../../assets/ss2-img.webp' />
         </div>
         <div className='box-align' style={{textAlign: "left"}}>
-            <h1>Step 2 👨🏻‍💼</h1>
+            <h1>Step 2 ✨</h1>
             <h3>Recieve a customized plan, based on your unique needs & circumstances</h3>
             <p>We will design a customized plan & roadmap just for you, based on your needs, and email this to you.</p>
         </div>
