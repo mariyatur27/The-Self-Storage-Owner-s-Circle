@@ -46,7 +46,7 @@ function Contact() {
                 <div className='contacts-icons'>
                     <div className='row'>
                         <FontAwesomeIcon icon={faSquarePhone} color="#2d3891" class='icon-contact' style={{verticalAlign: 'middle'}}/>
-                        <a href='tel:19842540884' style={{color: '#2d3891',  marginTop: '2%'}} className='contact-link'><h4 className='contact-text'>+1 984-254-0884</h4></a>
+                        <a href='tel:13195942647' style={{color: '#2d3891',  marginTop: '2%'}} className='contact-link'><h4 className='contact-text'>+1 319 594 2647</h4></a>
                     </div>
                     <div className='row'>
                         <FontAwesomeIcon icon={faSquareEnvelope} color="#2d3891" class='icon-contact' style={{verticalAlign: 'middle'}}/>
