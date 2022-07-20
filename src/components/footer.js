@@ -27,7 +27,7 @@ function Footer() {
                 <nav className='navbar-container' id="extra_space">
                     <li style={{color: 'white'}}><a href='/#about-section'><FontAwesomeIcon icon={faChevronRight} color="white" style={{marginRight: '3%'}}/>About Us</a></li>
                     <li style={{color: 'white'}}><a href='/how-we-can-help-you'><FontAwesomeIcon icon={faChevronRight} color="white" style={{marginRight: '3%'}}/>How We Can Help You</a></li>
-                    <li style={{color: 'white'}}><a href='/team'><FontAwesomeIcon icon={faChevronRight} color="white" style={{marginRight: '3%'}} />Our Team</a></li>
+                    {/* <li style={{color: 'white'}}><a href='/team'><FontAwesomeIcon icon={faChevronRight} color="white" style={{marginRight: '3%'}} />Our Team</a></li> */}
                     <li style={{color: 'white'}}><a href='/#contact'><FontAwesomeIcon icon={faChevronRight} color="white" style={{marginRight: '3%'}} />Contact Us</a></li>
                 </nav> 
             </div>

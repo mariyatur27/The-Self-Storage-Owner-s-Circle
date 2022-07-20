@@ -19,7 +19,7 @@ function Navbar() {
            <li><a href='/'>Home</a></li>
            <li><a href='/#about-section'>About Us</a></li>
            <li><a href='/how-we-can-help-you'>How We Can Help You</a></li>
-           <li><a href='/team'>Our Team</a></li>
+           {/* <li><a href='/team'>Our Team</a></li> */}
            <li><a href='/#contact'>Contact Us</a></li>
         </div>
     </nav>
@@ -30,7 +30,7 @@ function Navbar() {
       <li className='menu-item' onClick={removeMenu}><a href='/' style={{color: 'black'}}>Home</a></li>
       <li className='menu-item' onClick={removeMenu}><a href='/#about-section' style={{color: 'black'}}>About Us</a></li>
       <li className='menu-item' onClick={removeMenu}><a href='/how-we-can-help-you' style={{color: 'black'}}>How We Help You</a></li>
-      <li className='menu-item' onClick={removeMenu}><a href='/team' style={{color: 'black'}}>Our Team</a></li>
+      {/* <li className='menu-item' onClick={removeMenu}><a href='/team' style={{color: 'black'}}>Our Team</a></li> */}
       <li className='menu-item' onClick={removeMenu}><a href='/#contact' style={{color: 'black'}}>Contact Us</a></li>
     </div>
    </>
